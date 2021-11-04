@@ -1,0 +1,20 @@
+{
+  "name": "lectur",
+  "version": "1.0.0",
+  "description": "Encuentra tu siguiente libro favorito <br /> Y alguien con quien compartirlo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebrij3/lectur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebrij3/lectur/issues"
+  },
+  "homepage": "https://github.com/alebrij3/lectur#readme"
+}
