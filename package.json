@@ -1,20 +1,19 @@
 {
   "name": "lectur",
-  "version": "1.0.0",
-  "description": "Encuentra tu siguiente libro favorito <br /> Y alguien con quien compartirlo.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alebrij3/lectur.git"
+  "dependencies": {
+    "next": "12.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alebrij3/lectur/issues"
-  },
-  "homepage": "https://github.com/alebrij3/lectur#readme"
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.2"
+  }
 }

@@ -1,4 +1,4 @@
 # lectur.net
 
-Encuentra tu siguiente libro favorito <br />
-Y alguien con quien compartirlo.
+Encuentra tu siguiente libro favorito
+Y alguien con quién compartirlo.
