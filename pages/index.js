@@ -15,10 +15,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2 className={styles.title}>
+        <p className={styles.title}>
           Encuentra tu siguiente libro favorito <br />Y alguien con quién
           compartirlo.
-        </h2>
+        </p>
       </main>
 
       <footer className={styles.footer}>

@@ -108,9 +108,17 @@
   margin-left: 0.5rem;
 }
 
+p.title {
+  font-weight: bold;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  p.title {
+    font-size: 1.2rem;
+    text-align: left;
   }
 }
