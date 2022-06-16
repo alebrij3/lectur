@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Lectur</title>
         <meta
@@ -14,16 +14,19 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}>
-        <p className={styles.title}>
-          Encuentra tu siguiente libro favorito <br />Y alguien con quién
-          compartirlo.
+      <div className={styles.tagline}>
+        <p>
+          Encuentra tu siguiente <br /> libro favorito
         </p>
-      </main>
+        <p>
+          Y alguien con quién <br /> compartirlo.
+        </p>
+      </div>
+      <main className={styles.main}></main>
 
       <footer className={styles.footer}>
         <p>ⓒ 2022</p>
       </footer>
-    </div>
+    </>
   );
 }
