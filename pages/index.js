@@ -22,7 +22,24 @@ export default function Home() {
           Y alguien con quién <br /> compartirlo.
         </p>
       </div>
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+        >
+          <label>¡Únete!</label>
+          <input type='email' placeholder='correo'></input>
+          <button>Enviar</button>
+        </form>
+
+        <h2>Registra tus lecturas</h2>
+        <div></div>
+        <h2>Comparte y lee con otras personas</h2>
+        <div></div>
+        <h2>Descubre nuevas aventuras</h2>
+        <div></div>
+      </main>
 
       <footer className={styles.footer}>
         <p>ⓒ 2022</p>
