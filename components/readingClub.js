@@ -9,6 +9,7 @@ export default function ReadingClub() {
           position: relative;
           width: 98px;
           height: 148px;
+          margin: 1rem auto;
         }
 
         .book-cover > div {
@@ -36,13 +37,13 @@ export default function ReadingClub() {
         }
 
         .div_1 {
-          top: -15px;
+          top: -9px;
           right: -64px;
         }
 
         .div_2 {
           top: 60px;
-          right: -100px;
+          right: -114px;
         }
 
         .div_3 {
@@ -52,7 +53,7 @@ export default function ReadingClub() {
 
         .div_4 {
           bottom: -20px;
-          right: -100px;
+          right: -110px;
         }
 
         .div_5 {
@@ -61,27 +62,27 @@ export default function ReadingClub() {
         }
 
         .div_6 {
-          bottom: -60px;
+          bottom: -50px;
           lefto: 20px;
         }
 
         .div_7 {
           left: -50px;
-          bottom: -20px;
+          bottom: -10px;
         }
 
         .div_8 {
-          left: -60px;
-          bottom: 50%;
+          left: -55px;
+          top: 80px;
         }
 
         .div_9 {
-          top: 50%;
-          left: -90px;
+          top: 58px;
+          left: -113px;
         }
 
         .div_10 {
-          top: -20px;
+          top: -10px;
           left: -60px;
         }
       `}</style>
