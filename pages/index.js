@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import BookRow from '../components/bookRow';
+import BookShelf from '../components/bookShelf';
 import ReadingClub from '../components/readingClub';
 import profilePic from '../public/girl-reading.png';
 import styles from '../styles/Home.module.css';
@@ -65,6 +66,9 @@ export default function Home() {
         <section>
           <div className={styles.fullspan}>
             <h2>Descubre nuevas aventuras</h2>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <BookShelf qty={27} scale={2} />
+            </div>
           </div>
         </section>
       </main>
