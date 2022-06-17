@@ -71,3 +71,10 @@ h6 {
 body {
   font-family: 'Libre Caslon Text', serif;
 }
+
+.btn-primary {
+  color: white;
+  background-color: #f49730;
+  border: none;
+  font-weight: bold;
+}

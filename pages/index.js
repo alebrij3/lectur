@@ -40,7 +40,7 @@ export default function Home() {
           >
             <label htmlFor='email'>¡Únete!</label>
             <input id='email' type='email' placeholder='correo'></input>
-            <button>Enviar</button>
+            <button className='btn-primary'>Enviar</button>
             <p style={{ fontSize: '.7rem' }}>*pre-registro</p>
           </form>
         </section>
