@@ -19,6 +19,7 @@
 
 .main h2 {
   font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .footer {
@@ -61,4 +62,18 @@
 
 .fullspan {
   grid-column: 1 / -1;
+}
+
+.readingRecord {
+  background-color: #eaeaea;
+  border-radius: 4px;
+  display: flex;
+  padding: 16px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.readingRecord img {
+  border-radius: 50%;
 }

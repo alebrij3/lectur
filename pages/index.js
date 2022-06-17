@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import BookRow from '../components/bookRow';
+import profilePic from '../public/girl-reading.png';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -43,6 +45,13 @@ export default function Home() {
         <section>
           <div className={styles.fullspan}>
             <h2>Registra tus lecturas</h2>
+            <div className={styles.readingRecord}>
+              <Image src={profilePic} alt='' width={80} height={80} />
+              <div>
+                <p>10/25</p>
+                <BookRow qty={27} />
+              </div>
+            </div>
           </div>
         </section>
         <section>
