@@ -38,8 +38,6 @@ export default function BookRow({ qty, scale = 1 }) {
     j++;
   }
 
-  console.log({ books });
-
   return (
     <div>
       {books.map((bookDimentions, idx) => {
