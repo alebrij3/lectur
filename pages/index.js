@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import BookRow from '../components/bookRow';
+import ReadingClub from '../components/readingClub';
 import profilePic from '../public/girl-reading.png';
 import styles from '../styles/Home.module.css';
 
@@ -39,6 +40,7 @@ export default function Home() {
             <label htmlFor='email'>¡Únete!</label>
             <input id='email' type='email' placeholder='correo'></input>
             <button>Enviar</button>
+            <p style={{ fontSize: '.7rem' }}>*pre-registro</p>
           </form>
         </section>
 
@@ -57,6 +59,7 @@ export default function Home() {
         <section>
           <div className={styles.fullspan}>
             <h2>Comparte y lee con otras personas</h2>
+            <ReadingClub />
           </div>
         </section>
         <section>
