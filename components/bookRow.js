@@ -1,4 +1,4 @@
-export default function BookRow({ qty }) {
+export default function BookRow({ qty, scale = 1 }) {
   const dimentions = [
     [8, 23],
     [5, 25],
@@ -48,10 +48,11 @@ export default function BookRow({ qty }) {
             key={idx}
             style={{
               display: 'inline-block',
-              width: `${bookDimentions[0]}px`,
-              height: `${bookDimentions[1]}px`,
+              width: `${bookDimentions[0] * scale}px`,
+              height: `${bookDimentions[1] * scale}px`,
               backgroundColor: '#eaeaea',
-              border: '1px solid black',
+              border: `${scale}px solid black`,
+              marginRight: `-${scale}px`,
             }}
           ></div>
         );

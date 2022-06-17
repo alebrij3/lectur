@@ -48,8 +48,8 @@ export default function Home() {
             <div className={styles.readingRecord}>
               <Image src={profilePic} alt='' width={80} height={80} />
               <div>
-                <p>10/25</p>
-                <BookRow qty={27} />
+                <p style={{ marginBottom: '.5rem' }}>10/25</p>
+                <BookRow qty={27} scale={1} />
               </div>
             </div>
           </div>
