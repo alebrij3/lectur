@@ -14,31 +14,47 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className={styles.tagline}>
-        <p>
-          Encuentra tu siguiente <br /> libro favorito
-        </p>
-        <p>
-          Y alguien con quién <br /> compartirlo.
-        </p>
-      </div>
       <main className={styles.main}>
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-          }}
-        >
-          <label>¡Únete!</label>
-          <input type='email' placeholder='correo'></input>
-          <button>Enviar</button>
-        </form>
+        <section>
+          <div className={styles.fullspan}>
+            <div className={styles.tagline}>
+              <p>
+                Encuentra tu siguiente <br /> libro favorito
+              </p>
+              <p>
+                Y alguien con quién <br /> compartirlo.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <form
+            className={styles.form}
+            onSubmit={(e) => {
+              e.preventDefault();
+            }}
+          >
+            <label htmlFor='email'>¡Únete!</label>
+            <input id='email' type='email' placeholder='correo'></input>
+            <button>Enviar</button>
+          </form>
+        </section>
 
-        <h2>Registra tus lecturas</h2>
-        <div></div>
-        <h2>Comparte y lee con otras personas</h2>
-        <div></div>
-        <h2>Descubre nuevas aventuras</h2>
-        <div></div>
+        <section>
+          <div className={styles.fullspan}>
+            <h2>Registra tus lecturas</h2>
+          </div>
+        </section>
+        <section>
+          <div className={styles.fullspan}>
+            <h2>Comparte y lee con otras personas</h2>
+          </div>
+        </section>
+        <section>
+          <div className={styles.fullspan}>
+            <h2>Descubre nuevas aventuras</h2>
+          </div>
+        </section>
       </main>
 
       <footer className={styles.footer}>
