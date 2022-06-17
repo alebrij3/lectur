@@ -1,5 +1,11 @@
 import Image from 'next/image';
 import bookCover from '../public/el-club-de-la-salamandra.jpeg';
+import user1 from '../public/user_1.png';
+import user2 from '../public/user_2.png';
+import user3 from '../public/user_3.png';
+import user4 from '../public/user_4.png';
+import user5 from '../public/user_5.png';
+import user6 from '../public/girl-reading.png';
 
 export default function ReadingClub() {
   return (
@@ -13,9 +19,10 @@ export default function ReadingClub() {
         }
 
         .book-cover > div {
-          background-color: #eaeaea;
+          background-color: #ffb366;
           border-radius: 50%;
           position: absolute;
+          background-size: cover;
         }
 
         .div_1,
@@ -32,23 +39,25 @@ export default function ReadingClub() {
         .div_4,
         .div_6,
         .div_8 {
-          width: 20px;
-          height: 20px;
+          width: 10px;
+          height: 10px;
         }
 
         .div_1 {
           top: -9px;
           right: -64px;
+          background-image: url('./user_1.png');
         }
 
         .div_2 {
-          top: 60px;
-          right: -114px;
+          bottom: 35px;
+          right: -60px;
         }
 
         .div_3 {
-          bottom: 35px;
-          right: -60px;
+          top: 50px;
+          right: -114px;
+          background-image: url('./user_2.png');
         }
 
         .div_4 {
@@ -57,8 +66,9 @@ export default function ReadingClub() {
         }
 
         .div_5 {
-          bottom: -40px;
+          bottom: -30px;
           right: -48px;
+          background-image: url('./user_3.png');
         }
 
         .div_6 {
@@ -69,6 +79,7 @@ export default function ReadingClub() {
         .div_7 {
           left: -50px;
           bottom: -10px;
+          background-image: url('./user_4.png');
         }
 
         .div_8 {
@@ -79,11 +90,13 @@ export default function ReadingClub() {
         .div_9 {
           top: 58px;
           left: -113px;
+          background-image: url('./user_5.png');
         }
 
         .div_10 {
           top: -10px;
           left: -60px;
+          background-image: url('./girl-reading.png');
         }
       `}</style>
       <div style={{ position: 'relative' }}>
